@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
+    'mpps_api',
 ]
 
 REST_FRAMEWORK = {
@@ -81,7 +82,9 @@ WSGI_APPLICATION = 'mpps_backend.wsgi.application'
 
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',  
+    'http://localhost:3000',
+    'http://localhost:5173',
+
 ]
 
 
