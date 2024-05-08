@@ -71,3 +71,16 @@ class TransitPassView(APIView):
             return Response({'message': 'Transit pass created successfully'})
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+class PaymentRequestView(APIView):
+    permission_classes = [IsAuthenticated]  # Only authenticated users can request payments
+
+    def post(self, request):
+        serializer = TransactionSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save(user=request.user, status='requested')  # Set user and status
+            return Response({'message': 'Payment request created successfully'})
+        else:
+            return Response(serializer.errors, status=400)

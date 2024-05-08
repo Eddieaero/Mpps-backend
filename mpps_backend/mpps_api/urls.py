@@ -3,6 +3,7 @@ from django.urls import path
 from mpps_api.views import RegisterView
 from mpps_api.views import UploadView
 from mpps_api.views import TransitPassView
+from mpps_api.views import LoginView
 
 
 
