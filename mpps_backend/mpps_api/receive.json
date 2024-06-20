@@ -1,0 +1,9 @@
+{
+    "first_name": "John",
+    "last_name": "Doe",
+    "company_name": "ACME Inc.",
+    "address": "123 Main Street, Anytown, CA 12345",
+    "email": "john.doe@example.com",
+    "phone_number": "+1234567890",
+    "password": "secret_password"
+}

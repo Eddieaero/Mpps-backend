@@ -1,0 +1,438 @@
+[
+    {
+        "destination": [
+            {
+                "name": "mafinga",
+                "region": "Iringa-mafinga",
+                "coordinates": {
+                    "lng": 35.2917432,
+                    "lat": -8.3026125
+                }
+            },
+            {
+                "name": "sirari",
+                "region": "Mara-sirari",
+                "coordinates": {
+                    "lng": 34.4763342,
+                    "lat": -1.2512354
+                }
+            },
+            {
+                "name": "moshi",
+                "region": "Kilimanjaro-moshi",
+                "coordinates": {
+                    "lng": 37.3506658,
+                    "lat": -3.3429977
+                }
+            },
+            {
+                "name": "holili",
+                "region": "Kilimanjaro-holili",
+                "coordinates": {
+                    "lng": 37.6360009,
+                    "lat": -3.3770591
+                }
+            },
+            {
+                "name": "tunduma",
+                "region": "Songwe-tunduma",
+                "coordinates": {
+                    "lng": 32.7780295,
+                    "lat": -9.304492399999999
+                }
+            },
+            {
+                "name": "namanga",
+                "region": "Dar es Salam-namanga",
+                "coordinates": {
+                    "lng": 39.2693652,
+                    "lat": -6.7748883
+                }
+            },
+            {
+                "name": "horohoro",
+                "region": "Tanga-horohoro",
+                "coordinates": {
+                    "lng": 39.103238,
+                    "lat": -4.606363
+                }
+            },
+            {
+                "name": "arusha",
+                "region": "Arusha-arusha",
+                "coordinates": {
+                    "lng": 36.6829927,
+                    "lat": -3.3869254
+                }
+            },
+            {
+                "name": "korogwe",
+                "region": "Tanga-korogwe",
+                "coordinates": {
+                    "lng": 38.4535628,
+                    "lat": -5.1609527
+                }
+            },
+            {
+                "name": "geita",
+                "region": "Geita-geita",
+                "coordinates": {
+                    "lng": 32.2313539,
+                    "lat": -2.8850378
+                }
+            },
+            {
+                "name": "musoma",
+                "region": "Mara-musoma",
+                "coordinates": {
+                    "lng": 33.8020459,
+                    "lat": -1.5101913
+                }
+            },
+            {
+                "name": "bunda",
+                "region": "Mara-bunda",
+                "coordinates": {
+                    "lng": 33.8746152,
+                    "lat": -2.0185322
+                }
+            },
+            {
+                "name": "namtumbo",
+                "region": "Ruvuma-namtumbo",
+                "coordinates": {
+                    "lng": 36.1300969,
+                    "lat": -10.4664329
+                }
+            },
+            {
+                "name": "tunduru",
+                "region": "Ruvuma-tunduru",
+                "coordinates": {
+                    "lng": 37.3292861,
+                    "lat": -11.0406923
+                }
+            },
+            {
+                "name": "tandahimba",
+                "region": "Mtwara-tandahimba",
+                "coordinates": {
+                    "lng": 39.6260058,
+                    "lat": -10.7619512
+                }
+            },
+            {
+                "name": "mpanda",
+                "region": "Katavi-mpanda",
+                "coordinates": {
+                    "lng": 31.0736389,
+                    "lat": -6.347763500000001
+                }
+            },
+            {
+                "name": "mlele",
+                "region": "Katavi-mlele",
+                "coordinates": {
+                    "lng": 31.8107079,
+                    "lat": -6.7758362
+                }
+            },
+            {
+                "name": "sikonge",
+                "region": "Tabora-sikonge",
+                "coordinates": {
+                    "lng": 32.75483639999999,
+                    "lat": -5.6229011
+                }
+            },
+            {
+                "name": "tabora",
+                "region": "Tabora-tabora",
+                "coordinates": {
+                    "lng": 32.8197329,
+                    "lat": -5.0424945
+                }
+            },
+            {
+                "name": "tanganyika",
+                "region": "Morogoro-tanganyika",
+                "coordinates": {
+                    "lng": 35.6254028,
+                    "lat": -9.118914799999999
+                }
+            },
+            {
+                "name": "njombe",
+                "region": "Njombe-njombe",
+                "coordinates": {
+                    "lng": 34.8005067,
+                    "lat": -9.3731511
+                }
+            },
+            {
+                "name": "makete",
+                "region": "Makete-makete",
+                "coordinates": {
+                    "lng": 34.0641419,
+                    "lat": -9.207278800000001
+                }
+            }
+        ]
+    },
+    {
+        "points": [
+            {
+                "name": "Makwawa",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "1430"
+            },
+            {
+                "name": "Kihesa",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "4584"
+            },
+            {
+                "name": "Kilolo",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "1420"
+            },
+            {
+                "name": "Kintinku",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "6347"
+            },
+            {
+                "name": "Nata",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "7324"
+            },
+            {
+                "name": "Tinde",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "8199"
+            },
+            {
+                "name": "Mwigumbi",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "1997"
+            },
+            {
+                "name": "Lukungu",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "2505"
+            },
+            {
+                "name": "Makwawa",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "6977"
+            },
+            {
+                "name": "Bereko",
+                "lng": 35.7400665,
+                "lat": -4.4522156,
+                "code": "2469"
+            },
+            {
+                "name": "Babati",
+                "lng": 35.7461477,
+                "lat": -4.2078266,
+                "code": "8264"
+            },
+            {
+                "name": "Makuyuni",
+                "lng": 36.1029284,
+                "lat": -3.5451284,
+                "code": "2926"
+            },
+            {
+                "name": "Bomang'ombe",
+                "lng": 37.1385674,
+                "lat": -3.3374361,
+                "code": "9329"
+            },
+            {
+                "name": "Igumbilo",
+                "lng": 35.7475482,
+                "lat": -7.784228399999999,
+                "code": "7947"
+            },
+            {
+                "name": "ruaha mbuyuni",
+                "lng": 36.4382,
+                "lat": -7.5217,
+                "code": "8993"
+            },
+            {
+                "name": "Sangasanga",
+                "lng": 37.8193089,
+                "lat": -6.679927999999999,
+                "code": "6645"
+            },
+            {
+                "name": "Manga",
+                "lng": 38.24019,
+                "lat": -5.90794,
+                "code": "1863"
+            },
+            {
+                "name": "Maweni",
+                "lng": 39.01726,
+                "lat": -5.10005,
+                "code": "3206"
+            },
+            {
+                "name": "Katoro",
+                "lng": 31.9270919,
+                "lat": -3.0062464,
+                "code": "7502"
+            },
+            {
+                "name": "Bujingwa",
+                "lng": 33.2947682,
+                "lat": -2.8293408,
+                "code": "5853"
+            },
+            {
+                "name": "Usagara",
+                "lng": 39.1101599,
+                "lat": -5.0761957,
+                "code": "6379"
+            },
+            {
+                "name": "Nyigo",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "7575"
+            },
+            {
+                "name": "Ilunda",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "1881"
+            },
+            {
+                "name": "Nundu",
+                "lng": 34.75872,
+                "lat": -9.36792,
+                "code": "1575"
+            },
+            {
+                "name": "Igawisenga",
+                "lng": 35.31413,
+                "lat": -9.69752,
+                "code": "4090"
+            },
+            {
+                "name": "Mitawa",
+                "lng": 34.89123,
+                "lat": -11.12573,
+                "code": "2319"
+            },
+            {
+                "name": "Lumecha",
+                "lng": 35.77091,
+                "lat": -10.57888,
+                "code": "3936"
+            },
+            {
+                "name": "Masuguru",
+                "lng": 38.411369,
+                "lat": -11.3462099,
+                "code": "8437"
+            },
+            {
+                "name": "Sauti Moja",
+                "lng": 38.0554,
+                "lat": -10.84988,
+                "code": "5374"
+            },
+            {
+                "name": "Namatumbusi",
+                "lng": 38.6233,
+                "lat": -10.48332,
+                "code": "3150"
+            },
+            {
+                "name": "Nyangoa",
+                "lng": 39.29458,
+                "lat": -10.32237,
+                "code": "3510"
+            },
+            {
+                "name": "Igawa",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "1005"
+            },
+            {
+                "name": "Inyala",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "3064"
+            },
+            {
+                "name": "Nanyala",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "6730"
+            },
+            {
+                "name": "Tunko",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "8525"
+            },
+            {
+                "name": "Kanondo",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "5221"
+            },
+            {
+                "name": "Lyazumbi",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "4107"
+            },
+            {
+                "name": "Magamba",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "6931"
+            },
+            {
+                "name": "Kamsisi",
+                "lng": 32.114138,
+                "lat": -6.647413999999999,
+                "code": "3283"
+            },
+            {
+                "name": "Ipole",
+                "lng": 32.71232,
+                "lat": -5.78968,
+                "code": "2290"
+            },
+            {
+                "name": "Pangale",
+                "lng": 32.7164712,
+                "lat": -5.2739104,
+                "code": "7496"
+            },
+            {
+                "name": "Ifukutwa",
+                "lng": 30.983105,
+                "lat": -6.222465,
+                "code": "2899"
+            }
+        ]
+    }
+]

@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-+v8-v5+k7th$c090(o+^_n_z5d6i3r8cd)*tj=s$nn-wjec62h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    # '192.168.1.101',
+    # '192.168.1.173',
+    '*',
+]
 
 
 # Application definition
@@ -41,7 +45,13 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'mpps_api',
+    # 'authuser',
 ]
+
+
+# AUTH_USER_MODEL = 'mpps_api.User'
+
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
@@ -88,6 +98,11 @@ CORS_ORIGIN_WHITELIST = [
 ]
 
 
+CSRF_COOKIE_SECURE = True  # Set to True if using HTTPS (recommended)
+CSRF_COOKIE_HTTPONLY = True  # Set to True to prevent client-side JavaScript access
+
+
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -97,6 +112,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation
@@ -116,6 +132,10 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+
+
 
 
 # Internationalization

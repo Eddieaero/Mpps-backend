@@ -1,0 +1,1344 @@
+[
+    {
+        "start": "Mafinga",
+        "end": "Sirari",
+        "via": "Simiyu",
+        "points": [
+            {
+                "name": "Akwawa",
+                "id": "1",
+                "lng": 35.0,
+                "lat": -7.0,
+                "code": "1430"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "3812"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "2063"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "7642"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "8069"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "4406"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "4162"
+            },
+            {
+                "name": "Lukungu",
+                "id": "8",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "6550"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Arusha",
+        "via": "Dodoma",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "7520"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "2225"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "8944"
+            },
+            {
+                "name": "Bereko",
+                "id": "4",
+                "lng": 35.7400665,
+                "lat": -4.4522156,
+                "code": "6773"
+            },
+            {
+                "name": "Babati",
+                "id": "5",
+                "lng": 35.7461477,
+                "lat": -4.2078266,
+                "code": "1921"
+            },
+            {
+                "name": "Makuyuni",
+                "id": "6",
+                "lng": 36.1029284,
+                "lat": -3.5451284,
+                "code": "8674"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Moshi",
+        "via": "Dodoma",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "2160"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "5652"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "9386"
+            },
+            {
+                "name": "Bereko",
+                "id": "4",
+                "lng": 35.7400665,
+                "lat": -4.4522156,
+                "code": "2496"
+            },
+            {
+                "name": "Babati",
+                "id": "5",
+                "lng": 35.7461477,
+                "lat": -4.2078266,
+                "code": "7044"
+            },
+            {
+                "name": "Makuyuni",
+                "id": "6",
+                "lng": 36.1029284,
+                "lat": -3.5451284,
+                "code": "7388"
+            },
+            {
+                "name": "Bomang'ombe",
+                "id": "7",
+                "lng": 37.1385674,
+                "lat": -3.3374361,
+                "code": "2630"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Holili",
+        "via": "Dodoma",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "1768"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "8999"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "4405"
+            },
+            {
+                "name": "Bereko",
+                "id": "4",
+                "lng": 35.7400665,
+                "lat": -4.4522156,
+                "code": "2469"
+            },
+            {
+                "name": "Babati",
+                "id": "5",
+                "lng": 35.7461477,
+                "lat": -4.2078266,
+                "code": "8264"
+            },
+            {
+                "name": "Makuyuni",
+                "id": "6",
+                "lng": 36.1029284,
+                "lat": -3.5451284,
+                "code": "2926"
+            },
+            {
+                "name": "Bomang'ombe",
+                "id": "7",
+                "lng": 37.1385674,
+                "lat": -3.3374361,
+                "code": "9329"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Horohoro",
+        "via": "Tanga",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "8429"
+            },
+            {
+                "name": "Igumbilo",
+                "id": "2",
+                "lng": 35.7475482,
+                "lat": -7.784228399999999,
+                "code": "5650"
+            },
+            {
+                "name": "ruaha mbuyuni",
+                "id": "3",
+                "lng": 36.43820,
+                "lat": -7.52170,
+                "code": "3583"
+            },
+            {
+                "name": "Sangasanga",
+                "id": "4",
+                "lng": 37.8193089,
+                "lat": -6.679927999999999,
+                "code": "2918"
+            },
+            {
+                "name": "Manga",
+                "id": "5",
+                "lng": 38.24019,
+                "lat": -5.90794,
+                "code": "8594"
+            },
+            {
+                "name": "Maweni",
+                "id": "6",
+                "lng": 39.01726,
+                "lat": -5.10005,
+                "code": "5497"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Korogwe",
+        "via": "Tanga",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "9571"
+            },
+            {
+                "name": "Igumbilo",
+                "id": "2",
+                "lng": 35.7475482,
+                "lat": -7.784228399999999,
+                "code": "7947"
+            },
+            {
+                "name": "ruaha mbuyuni",
+                "id": "3",
+                "lng": 36.43820,
+                "lat": -7.52170,
+                "code": "8993"
+            },
+            {
+                "name": "Sangasanga",
+                "id": "4",
+                "lng": 37.8193089,
+                "lat": -6.679927999999999,
+                "code": "6645"
+            },
+            {
+                "name": "Manga",
+                "id": "5",
+                "lng": 38.24019,
+                "lat": -5.90794,
+                "code": "1863"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Geita",
+        "via": "Kakola",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "5587"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "2403"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "3109"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "7185"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "9660"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Geita",
+        "via": "Ushirombo",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "5019"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "8376"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "8827"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "7067"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "5217"
+            },
+            {
+                "name": "Maweni",
+                "id": "6",
+                "lng": 39.01726,
+                "lat": -5.10005,
+                "code": "3206"
+            },
+            {
+                "name": "Katoro",
+                "id": "7",
+                "lng": 31.9270919,
+                "lat": -3.0062464,
+                "code": "7502"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Musoma",
+        "via": "Mwanza",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "1249"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "2457"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "8844"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "2302"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "2422"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "5658"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "9133"
+            },
+            {
+                "name": "Bujingwa",
+                "id": "8",
+                "lng": 33.2947682,
+                "lat": -2.8293408,
+                "code": "2855"
+            },
+            {
+                "name": "Lukungu",
+                "id": "9",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "5032"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Musoma",
+        "via": "Tabora",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "8102"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "5521"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "9118"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "5204"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "1072"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "4173"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "3950"
+            },
+            {
+                "name": "Bujingwa",
+                "id": "8",
+                "lng": 33.2947682,
+                "lat": -2.8293408,
+                "code": "5853"
+            },
+            {
+                "name": "Lukungu",
+                "id": "9",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "6418"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Musoma",
+        "via": "Simiyu",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "9096"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "2575"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "3362"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "2162"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "3706"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "7931"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "9504"
+            },
+            {
+                "name": "Lukungu",
+                "id": "8",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "9304"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Bunda",
+        "via": "Simiyu",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "3646"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "6528"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "7094"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "6754"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "6652"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "2070"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "2058"
+            },
+            {
+                "name": "Lukungu",
+                "id": "8",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "2548"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Bunda",
+        "via": "Mwanza",
+        "points": [
+            {
+                "name": "Makwawa",
+                "id": "1",
+                "lng": 35.68604,
+                "lat": -7.76801,
+                "code": "6977"
+            },
+            {
+                "name": "Kihesa",
+                "id": "2",
+                "lng": 35.7252285,
+                "lat": -7.7435639,
+                "code": "4584"
+            },
+            {
+                "name": "Kilolo",
+                "id": "3",
+                "lng": 35.8429558,
+                "lat": -8.005529800000001,
+                "code": "1420"
+            },
+            {
+                "name": "Kintinku",
+                "id": "4",
+                "lng": 35.2202016,
+                "lat": -5.8871908,
+                "code": "6347"
+            },
+            {
+                "name": "Nata",
+                "id": "5",
+                "lng": 33.17641,
+                "lat": -4.09762,
+                "code": "7324"
+            },
+            {
+                "name": "Tinde",
+                "id": "6",
+                "lng": 33.19647,
+                "lat": -3.8703,
+                "code": "8199"
+            },
+            {
+                "name": "Mwigumbi",
+                "id": "7",
+                "lng": 33.5230097,
+                "lat": -3.4405527,
+                "code": "1997"
+            },
+            {
+                "name": "Usagara",
+                "id": "8",
+                "lng": 39.1101599,
+                "lat": -5.0761957,
+                "code": "6379"
+            },
+            {
+                "name": "Lukungu",
+                "id": "9",
+                "lng": 33.857887,
+                "lat": -2.230296,
+                "code": "2505"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Namtumbo",
+        "via": "Njombe",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "9844"
+            },
+            {
+                "name": "Ilunda",
+                "id": "2",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "2594"
+            },
+            {
+                "name": "Nundu",
+                "id": "3",
+                "lng": 34.75872,
+                "lat": -9.36792,
+                "code": "2109"
+            },
+            {
+                "name": "Igawisenga",
+                "id": "4",
+                "lng": 35.31413,
+                "lat": -9.69752,
+                "code": "5213"
+            },
+            {
+                "name": "Mitawa",
+                "id": "5",
+                "lng": 34.89123,
+                "lat": -11.12573,
+                "code": "3231"
+            },
+            {
+                "name": "Lumecha",
+                "id": "6",
+                "lng": 35.77091,
+                "lat": -10.57888,
+                "code": "7990"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Tunduru",
+        "via": "Njombe",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "6576"
+            },
+            {
+                "name": "Ilunda",
+                "id": "2",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "9594"
+            },
+            {
+                "name": "Nundu",
+                "id": "3",
+                "lng": 34.75872,
+                "lat": -9.36792,
+                "code": "3576"
+            },
+            {
+                "name": "Igawisenga",
+                "id": "4",
+                "lng": 35.31413,
+                "lat": -9.69752,
+                "code": "9913"
+            },
+            {
+                "name": "Mitawa",
+                "id": "5",
+                "lng": 34.89123,
+                "lat": -11.12573,
+                "code": "1114"
+            },
+            {
+                "name": "Lumecha",
+                "id": "6",
+                "lng": 35.77091,
+                "lat": -10.57888,
+                "code": "5410"
+            },
+            {
+                "name": "Masuguru",
+                "id": "7",
+                "lng": 38.411369,
+                "lat": -11.3462099,
+                "code": "9700"
+            },
+            {
+                "name": "Sauti Moja",
+                "id": "8",
+                "lng": 38.0554,
+                "lat": -10.84988,
+                "code": "5374"
+            },
+            {
+                "name": "Namatumbusi",
+                "id": "9",
+                "lng": 38.6233,
+                "lat": -10.48332,
+                "code": "6575"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Tandahimba",
+        "via": "Njombe",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "4838"
+            },
+            {
+                "name": "Ilunda",
+                "id": "2",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "9759"
+            },
+            {
+                "name": "Nundu",
+                "id": "3",
+                "lng": 34.75872,
+                "lat": -9.36792,
+                "code": "6184"
+            },
+            {
+                "name": "Igawisenga",
+                "id": "4",
+                "lng": 35.31413,
+                "lat": -9.69752,
+                "code": "4090"
+            },
+            {
+                "name": "Mitawa",
+                "id": "5",
+                "lng": 34.89123,
+                "lat": -11.12573,
+                "code": "2319"
+            },
+            {
+                "name": "Lumecha",
+                "id": "6",
+                "lng": 35.77091,
+                "lat": -10.57888,
+                "code": "3936"
+            },
+            {
+                "name": "Masuguru",
+                "id": "7",
+                "lng": 38.411369,
+                "lat": -11.3462099,
+                "code": "8437"
+            },
+            {
+                "name": "Namatumbusi",
+                "id": "8",
+                "lng": 38.6233,
+                "lat": -10.48332,
+                "code": "3150"
+            },
+            {
+                "name": "Nyangoa",
+                "id": "9",
+                "lng": 39.29458,
+                "lat": -10.32237,
+                "code": "3510"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Mpanda",
+        "via": "Sumbawanga",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "3505"
+            },
+            {
+                "name": "Igawa",
+                "id": "2",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "1493"
+            },
+            {
+                "name": "Inyala",
+                "id": "3",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "9247"
+            },
+            {
+                "name": "Nanyala",
+                "id": "4",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "2894"
+            },
+            {
+                "name": "Tunko",
+                "id": "6",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "7195"
+            },
+            {
+                "name": "Kanondo",
+                "id": "7",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "3657"
+            },
+            {
+                "name": "Lyazumbi",
+                "id": "8",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "9447"
+            },
+            {
+                "name": "Magamba",
+                "id": "9",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "7674"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Mlele",
+        "via": "Sumbawanga",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "2218"
+            },
+            {
+                "name": "Igawa",
+                "id": "2",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "9093"
+            },
+            {
+                "name": "Inyala",
+                "id": "3",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "3114"
+            },
+            {
+                "name": "Nanyala",
+                "id": "4",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "1640"
+            },
+            {
+                "name": "Tunko",
+                "id": "6",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "6790"
+            },
+            {
+                "name": "Kanondo",
+                "id": "7",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "7833"
+            },
+            {
+                "name": "Lyazumbi",
+                "id": "8",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "4834"
+            },
+            {
+                "name": "Magamba",
+                "id": "9",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "8664"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Sikonge",
+        "via": "Sumbawanga",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "6767"
+            },
+            {
+                "name": "Igawa",
+                "id": "2",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "1278"
+            },
+            {
+                "name": "Inyala",
+                "id": "3",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "3639"
+            },
+            {
+                "name": "Nanyala",
+                "id": "4",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "5228"
+            },
+            {
+                "name": "Tunko",
+                "id": "6",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "2428"
+            },
+            {
+                "name": "Kanondo",
+                "id": "7",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "1647"
+            },
+            {
+                "name": "Lyazumbi",
+                "id": "8",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "4634"
+            },
+            {
+                "name": "Magamba",
+                "id": "9",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "3695"
+            },
+            {
+                "name": "Kamsisi",
+                "id": "11",
+                "lng": 32.114138,
+                "lat": -6.647413999999999,
+                "code": "4760"
+            },
+            {
+                "name": "Ipole",
+                "id": "12",
+                "lng": 32.71232,
+                "lat": -5.78968,
+                "code": "5815"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Tabora",
+        "via": "Sumbawanga",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "1963"
+            },
+            {
+                "name": "Igawa",
+                "id": "2",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "9961"
+            },
+            {
+                "name": "Inyala",
+                "id": "3",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "4654"
+            },
+            {
+                "name": "Nanyala",
+                "id": "4",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "7090"
+            },
+            {
+                "name": "Tunko",
+                "id": "6",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "1445"
+            },
+            {
+                "name": "Kanondo",
+                "id": "7",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "2009"
+            },
+            {
+                "name": "Lyazumbi",
+                "id": "8",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "3779"
+            },
+            {
+                "name": "Magamba",
+                "id": "9",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "7626"
+            },
+            {
+                "name": "Kamsisi",
+                "id": "11",
+                "lng": 32.114138,
+                "lat": -6.647413999999999,
+                "code": "3283"
+            },
+            {
+                "name": "Ipole",
+                "id": "12",
+                "lng": 32.71232,
+                "lat": -5.78968,
+                "code": "2290"
+            },
+            {
+                "name": "Pangale",
+                "id": "13",
+                "lng": 32.7164712,
+                "lat": -5.2739104,
+                "code": "7496"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Tanganyika",
+        "via": "Sumbawanga",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "7570"
+            },
+            {
+                "name": "Igawa",
+                "id": "2",
+                "lng": 34.3796033,
+                "lat": -8.7671931,
+                "code": "1005"
+            },
+            {
+                "name": "Inyala",
+                "id": "3",
+                "lng": 33.63550439999999,
+                "lat": -8.8596567,
+                "code": "3064"
+            },
+            {
+                "name": "Nanyala",
+                "id": "4",
+                "lng": 33.2142793,
+                "lat": -8.949385999999999,
+                "code": "6730"
+            },
+            {
+                "name": "Tunko",
+                "id": "6",
+                "lng": 32.10122,
+                "lat": -8.65505,
+                "code": "8525"
+            },
+            {
+                "name": "Kanondo",
+                "id": "7",
+                "lng": 31.5698,
+                "lat": -7.91246,
+                "code": "5221"
+            },
+            {
+                "name": "Lyazumbi",
+                "id": "8",
+                "lng": 31.0369,
+                "lat": -7.24181,
+                "code": "4107"
+            },
+            {
+                "name": "Magamba",
+                "id": "9",
+                "lng": 38.2996548,
+                "lat": -4.760961399999999,
+                "code": "6931"
+            },
+            {
+                "name": "Ifukutwa",
+                "id": "10",
+                "lng": 35.0,
+                "lat": -7.0,
+                "code": "2899"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Njombe",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "5617"
+            },
+            {
+                "name": "Ilunda",
+                "id": "2",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "1044"
+            }
+        ]
+    },
+    {
+        "start": "Mafinga",
+        "end": "Makete",
+        "points": [
+            {
+                "name": "Nyigo",
+                "id": "1",
+                "lng": 34.87937,
+                "lat": -8.77533,
+                "code": "7575"
+            },
+            {
+                "name": "Ilunda",
+                "id": "2",
+                "lng": 34.7975937,
+                "lat": -4.3633574,
+                "code": "1881"
+            },
+            {
+                "name": "Nundu",
+                "id": "3",
+                "lng": 34.75872,
+                "lat": -9.36792,
+                "code": "1575"
+            }
+        ]
+    }
+]

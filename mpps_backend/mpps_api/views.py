@@ -1,54 +1,66 @@
 from django.shortcuts import render
+from django.core.exceptions import ValidationError
+from django.contrib.auth.tokens import PasswordResetTokenGenerator
+from django.contrib.auth import authenticate
+from rest_framework.authtoken.views import obtain_auth_token
+from rest_framework.generics import ListAPIView
 from rest_framework.authentication import TokenAuthentication
+from rest_framework.authtoken.models import Token
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.exceptions import AuthenticationFailed
+from rest_framework.response import Response
 from rest_framework.views import APIView
-from .models import BusinessLicense, User, TransitPass, Payment
-from .serializers import BusinessLicenseSerializer, UserSerializer, TransitPassSerializer, PaymentSerializer
+from rest_framework import status
+from rest_framework import generics, viewsets
+from .models import *
+from .serializers import *
 from django.http import JsonResponse
-from .serializers import BusinessLicenseSerializer
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import get_user_model
+from django.contrib.auth import authenticate, login
 from django import forms
-import decorators
+from django.http import JsonResponse
 
 
+class UserRegistrationView(APIView):
+    # permission_classes = [IsAuthenticated]
 
-
-
-
-User = get_user_model()
-class CustomUserCreationForm(UserCreationForm):
-    class Meta(UserCreationForm.Meta):
-        model = User
-        fields = UserCreationForm.Meta.fields + ('company_name', 'phone_number', 'address', 'is_admin',)
-
-
-
-
-from rest_framework.authtoken.views import obtain_auth_token
-
-class LoginView(obtain_auth_token):
-    def post(self, request, *args, **kwargs):
-        username = request.data.get('username')
-        password = request.data.get('password')
-
-        try:
-            user = User.objects.get(username=username)
-            if not user.is_active:
-                return Response({'error': 'Email is not verified'}, status=status.HTTP_400_BAD_REQUEST)
-        except User.DoesNotExist:
-            pass
-
-        return super().post(request, *args, **kwargs)
-
-class RegisterView(APIView):
-    def post(self, request, *args, **kwargs):
-        serializer = UserSerializer(data=request.POST)
+    def post(self, request):
+        serializer = CustomUserSerializer(data=request.data)
         if serializer.is_valid():
-            serializer.save()  # Serializer handles saving the user
-            return Response({'message': 'User registered successfully'})
-        else:
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)        
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        
+
+    def get(self, request):
+        users = CustomUser.objects.all()  # Replace 'User' with your actual user model
+        serializer = CustomUserSerializer(users, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+class UserLoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+        user = authenticate(email=email, password=password)
+        if user:
+            token, _ = Token.objects.get_or_create(user=user)
+            return Response({'token': token.key}, status=status.HTTP_200_OK)
+        return Response({'error': 'Invalid credentials'}, status=status.HTTP_401_UNAUTHORIZED)
+
+
+
+
+
+class UserLogoutView(APIView):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        request.user.auth_token.delete()
+        return Response({'message': 'Logout successful'}, status=status.HTTP_200_OK)
+    
+
 class UploadView(APIView):
     def post(self, request, *args, **kwargs):
         serializer = BusinessLicenseSerializer(data=request.POST)  # Assuming some fields in request.POST
@@ -84,3 +96,29 @@ class PaymentRequestView(APIView):
             return Response({'message': 'Payment request created successfully'})
         else:
             return Response(serializer.errors, status=400)
+        
+class UserTransactionListView(generics.ListAPIView):
+    serializer_class = TransactionSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        user = self.request.user
+        return Transaction.objects.filter(CustomUser=user)
+    
+
+class UserTransitPassListView(generics.ListAPIView):
+    serializer_class = TransitPassSerializer
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        user = self.request.user
+        return TransitPass.objects.filter(CustomUser=user)
+    
+
+class CheckpointViewSet(viewsets.ModelViewSet):
+    queryset = Checkpoint.objects.all()
+    serializer_class = CheckpointSerializer
+
+class JourneyViewSet(viewsets.ModelViewSet):
+    queryset = Journey.objects.all()
+    serializer_class = JourneySerializer
