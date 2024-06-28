@@ -1,28 +1,8 @@
-from django.contrib.auth.models import AbstractBaseUser,PermissionsMixin, BaseUserManager
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 from django.db import models
 from django.conf import settings
 from datetime import timedelta
 from django.utils import timezone
-
-
-# class User(AbstractUser):
-#     company_name = models.CharField(max_length=255)
-#     phone_number = models.CharField(max_length=20)
-#     address = models.CharField(max_length=255)
-#     is_admin = models.BooleanField(default=False)
-#     groups = models.ManyToManyField(
-#         'auth.Group',
-#         related_name='mmps_users',  # Add a unique related_name
-#         blank=True,
-#         help_text='The groups this user belongs to. A user can belong to multiple groups.'
-#     )
-
-#     user_permissions = models.ManyToManyField(
-#         'auth.Permission',
-#         related_name='mmps_users',  # Add a unique related_name
-#         blank=True,
-#         help_text='Specific permissions for this user.'
-#     )
 
 class CustomUserManager(BaseUserManager):
     def _create_user(self, email, password, **extra_fields):
@@ -32,7 +12,6 @@ class CustomUserManager(BaseUserManager):
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
         user.save(using=self.db)
-
         return user
     
     def create_user(self, email=None, password=None, **extra_fields):
@@ -41,12 +20,10 @@ class CustomUserManager(BaseUserManager):
     # def create_superuser(self, email, password, **extra_fields):
     #     extra_fields.setdefault('is_staff', True)
     #     extra_fields.setdefault('is_superuser', True)
-
     #     if extra_fields.get('is_staff') is not True:
     #         raise ValueError('Superuser must have is_staff=True.')
     #     if extra_fields.get('is_superuser') is not True:
     #         raise ValueError('Superuser must have is_superuser=True.')
-
     #     return self._create_user(email, password, **extra_fields)
     
 class CustomUser(AbstractBaseUser):
@@ -98,11 +75,9 @@ class TransitPass(models.Model):
     transit_pass_document = models.FileField(upload_to='transit_passes/', null=True, blank=True)
 
     def save(self, *args, **kwargs):
-        if self.end_date is None:
+        if not self.end_date:
             self.end_date = self.start_date + timedelta(days=10)
         super().save(*args, **kwargs)
-
-
 
 class Transaction(models.Model):
     CustomUser = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
@@ -129,27 +104,10 @@ class Payment(models.Model):
     def __str__(self):
         return f"Payment for Transaction: {self.transaction.id} - Method: {self.payment_method}"
 
-
-
-#######################################################
-################################################################
-#############################################################
-
-
-
-class Checkpoint(models.Model):
-    code = models.CharField(max_length=50, unique=True)
-    name = models.CharField(max_length=255)
-    latitude = models.DecimalField(max_digits=9, decimal_places=6)
-    longitude = models.DecimalField(max_digits=9, decimal_places=6)
-
-    def __str__(self):
-        return f"{self.name} ({self.code})"
-
 class Journey(models.Model):
     journey_id = models.CharField(max_length=50, unique=True)
-    start_point = models.ForeignKey(Checkpoint, related_name='start_journeys', on_delete=models.CASCADE)
-    end_point = models.ForeignKey(Checkpoint, related_name='end_journeys', on_delete=models.CASCADE)
+    start_point = models.ForeignKey(TransitPass, related_name='start_journeys', on_delete=models.CASCADE)
+    end_point = models.ForeignKey(TransitPass, related_name='end_journeys', on_delete=models.CASCADE)
     route = models.JSONField()  # Use JSONField to store a list of checkpoint codes in order
 
     def __str__(self):

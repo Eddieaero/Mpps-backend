@@ -73,7 +73,7 @@
 # import random
 
 # Your Google Maps API key
-GOOGLE_MAPS_API_KEY = 'AIzaSyAtl70uE3wOpmFMGgEjN2KdsGwwUM8Rl_k'
+#
 
 # def update_location_coordinates(filename):
 #     """

@@ -115,10 +115,6 @@ class UserTransitPassListView(generics.ListAPIView):
         return TransitPass.objects.filter(CustomUser=user)
     
 
-class CheckpointViewSet(viewsets.ModelViewSet):
-    queryset = Checkpoint.objects.all()
-    serializer_class = CheckpointSerializer
-
 class JourneyViewSet(viewsets.ModelViewSet):
     queryset = Journey.objects.all()
     serializer_class = JourneySerializer
